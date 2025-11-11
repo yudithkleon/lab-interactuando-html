@@ -1,14 +1,29 @@
-console.log("holis")
-
+const mostrar = document.getElementById("mostrar")
+let votosD= 0
+let votosJs=0
+let votosBD=0
 
 const diseño =()=>{
-console.log("diseño")
+    votosD+=1
+
+mostrar.innerHTML = `
+<span>Votos Diseño:${votosD}</span>
+`;
+alert("Gracias por su voto de Diseño")
 }
 
 const js =()=>{
-console.log("js")
+    votosJs+=1
+alert("Gracias por su voto de Javascripts")
+mostrar.innerHTML = `
+<span>Votos de Js:${votosJs}</span>
+`;
 }
 
 const baseDato =()=>{
-console.log("BD")
+    votosBD+=1
+alert("Gracias por su voto de Base de Datos")
+mostrar.innerHTML = `
+<span>Votos de Base de Dato:${votosBD}</span>
+`;
 }
