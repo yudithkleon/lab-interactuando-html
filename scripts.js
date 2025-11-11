@@ -7,7 +7,7 @@ const diseño = () => {
   votosD += 1;
   mostrarConsole(votosD);
   mostrar.innerHTML = `
-<span>Votos Diseño:${votosD}</span>
+<span>Votos 👍🏻 Diseño:${votosD}</span>
 `;
   alert("Gracias por su voto de Diseño");
   ;
@@ -19,7 +19,7 @@ const js = () => {
 
   alert("Gracias por su voto de Javascripts");
   mostrar.innerHTML = `
-<span>Votos de Js:${votosJs}</span>
+<span>Votos 👍🏻 de Js:${votosJs}</span>
 `;
 };
 
@@ -29,7 +29,7 @@ const baseDato = () => {
 
   alert("Gracias por su voto de Base de Datos");
   mostrar.innerHTML = `
-<span>Votos de Base de Dato:${votosBD}</span>
+<span>Votos 👍🏻 de Base de Dato:${votosBD}</span>
 `;
 };
 

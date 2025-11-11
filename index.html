@@ -22,9 +22,45 @@
             </div>
             <div id="mostrar">
 
-
             </div>
         </main>
+        <br>
+        <hr>
+        <div>
+            <h1>
+                Carrito de compras
+            </h1>
+            <h2>Lista de productos</h2>
+
+            <div class="producto">
+                <p>Producto 1: Camiseta - $<span class="precio">20</span></p>
+                <button onclick="agregarAlCarrito('Camiseta', 20)">Agregar al
+                    carrito</button>
+            </div>
+
+            <div class="producto">
+                <p>Producto 2: Pantalón - $<span class="precio">35</span></p>
+                <button onclick="agregarAlCarrito('Pantalón', 35)">Agregar al
+                    carrito</button>
+            </div>
+
+            <div class="producto">
+                <p>Producto 3: Gorra - $<span class="precio">15</span></p>
+                <button onclick="agregarAlCarrito('Gorra', 15)">Agregar al
+                    carrito</button>
+            </div>
+
+            <div id="resumen">
+                <p>Total de ítems: <span id="total-items">0</span></p>
+                <p>Total precio: $<span id="total-precio">0</span></p>
+            </div>
+
+            <button onclick="vaciarCarrito()">Vaciar carrito</button>
+
+        </div>
+
         <script src="./scripts.js"></script>
+        <script src="./carritoCompras.js"></script>
+
     </body>
 </html>
